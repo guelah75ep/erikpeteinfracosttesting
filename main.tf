@@ -21,3 +21,7 @@ resource "aws_cloudformation_stack" "cid" {
   notification_arns = var.stack_notification_arns
   tags              = var.stack_tags
 }
+ebs_block_device {
+device_name = "erikpete_test"
+volume_type = "gp3"
+volume_size = 1000
