@@ -25,3 +25,4 @@ ebs_block_device {
 device_name = "erikpete_test"
 volume_type = "gp3"
 volume_size = 1000
+}
